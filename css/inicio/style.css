@@ -9,7 +9,7 @@ html{
     background-image: url('../../img/inicio/banner.png');
     display: flex;
     width: 100vw;
-    height: 600px;
+    height: 700px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -62,7 +62,7 @@ html{
     padding-left: 50px;
 }
 .logo-banner img{
-    width: 20vw;
+    width: 18vw;
     height: auto;
 }
 .saludo-inicio{
