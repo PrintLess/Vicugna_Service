@@ -1,0 +1,371 @@
+body {
+    margin: 0;
+    font-family: 'Fugaz One', sans-serif;
+    color: #333;
+    text-align: center; 
+    background-color: #f7f3e9; 
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Fugaz One', sans-serif;
+  }
+
+body, p, span, li, a, ul, ol, dl, dt, dd {
+    font-family: 'Roboto', sans-serif;
+  }
+header{
+    background-image:url(../../img/servicios/iconos/Banner\ \(1\).png);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.banner {
+    width: 100%;
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    position: relative; 
+    z-index: 1; 
+}
+
+.banner-content {
+    background: transparent;
+    color: #fff;
+    padding: 2em;
+    border-radius: 10px;
+    max-width: 800px;
+    text-align: center;
+}
+.carousel button {
+    background-color: transparent;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #prev {
+    background-color: #964B00; 
+    color: #fff;
+    border-radius: 8px 0 0 8px;
+  }
+  
+  #prev:hover {
+    background-color: #78493C;
+  }
+  
+  #next {
+    background-color: #F5F5DC; 
+    color: #333;
+    border-radius: 0 8px 8px 0;
+  }
+  
+  #next:hover {
+    background-color: #C9C4B5; 
+  }
+
+.navbar {
+    width: 100%;
+  }
+
+  .lista {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    margin-top: 0;
+    margin-left: auto; /
+  }
+  
+  .lista li {
+    list-style-type: none;
+  }
+  
+  .lista li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Fugaz One';
+    transition: color 0.2s;
+  }
+  
+  .lista li a:focus,
+  .lista li a:hover {
+    border-bottom: 1px solid #fff;
+  }
+  
+  .h-btn {
+    background-color: #795548;
+    padding: 10px 15px;
+    color: #fff;
+    margin-left: auto;
+    border-radius: 8px;
+  }
+  
+  .h-btn:hover {
+    background-color: #57392e;
+  }
+  
+  .logo-img {
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin: 0 auto;
+}
+#servicio {
+    padding: 2em 1em;
+    background: #fff;
+    border-radius: 10px;
+    margin: 2em 0;
+}
+
+#servicio h2 {
+    font-size: 2em;
+    color: #8B4513; /
+}
+
+#servicio p, #servicio ul {
+    font-size: 1.2em;
+    color: #8B4513; 
+}
+
+#modems {
+    padding: 2em 1em;
+    background: #fff;
+    border-radius: 10px;
+    margin: 2em 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+#modems h2 {
+    color: #8B4513; 
+    margin-bottom: 1em; 
+}
+
+#modems.modem-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.modem-item {
+    flex: 1 1 30%;
+    padding: 1em;
+    text-align: center;
+    margin: 1em; 
+    border: 1px solid #8B4513; 
+    border-radius: 10px;
+}
+
+.modem-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.modem-item h3 {
+    font-size: 1.5em;
+    color: #8B4513; 
+    margin-top: 0; 
+}
+
+#pricing {
+    padding: 2em 1em;
+    background: #fff;
+    border-radius: 10px;
+    margin: 2em 0;
+}
+
+#pricing h2 {
+    color: #8B4513; 
+}
+
+.pricing-table {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.pricing-plan {
+    flex: 1 1 30%;
+    padding: 1em;
+    background: #f7f3e9; 
+    border-radius: 10px;
+    text-align: center;
+    margin: 1em 0.5em; 
+    border: 2px solid #8B4513; 
+}
+
+.pricing-plan h3 {
+    font-size: 2em;
+    margin: 0;
+    color: #8B4513; 
+}
+
+.pricing-plan h4 {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+    color: #8B4513; 
+}
+
+.pricing-plan ul {
+    list-style: none;
+    padding: 0;
+}
+
+.pricing-plan li {
+    font-size: 1.2em;
+    padding: 0.5em 0;
+}
+
+.pricing-plan .btn {
+    background-color: #8B4513;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pricing-plan .btn:hover {
+    background-color: #a0522d; 
+}
+
+footer {
+    background-color: #8B4513; 
+    color: #fff;
+    padding: 2em 0; 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.footer-content {
+    text-align: center;
+    margin-bottom: 1em; 
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 1em; 
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1em;
+    transition: text-decoration 0.2s; 
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center ; 
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    margin: 0 1em;
+    border-radius: 50%; 
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+
+    .modem-gallery, .pricing-table {
+        flex-direction: column;
+    }
+    
+    .pricing-plan {
+        margin: 1em 0;
+    }
+}
+
+@media (max-width: 768px){
+    header {
+        background-image: none;
+    }
+    .banner {
+        display: none;
+    }
+    
+    .banner-content {
+        background: transparent;
+        color: #fff;
+        padding: 2em;
+        border-radius: 10px;
+        max-width: 800px;
+        text-align: center;
+    }
+    .logo-img {
+        width: 30px;
+        height: 30px;
+        display: block;
+        margin: 0 auto;
+    }
+    .navbar {
+        background-color: #282825; 
+        border: 1px solid #1A1A16; 
+        width: 100%;
+        padding-left: 0; 
+
+    }
+    .lista {
+        flex-direction: column;
+        align-items: center;
+        background-color: #282825;
+        padding: 0;
+        width: 100%;
+        height: auto;
+        display: block;
+        gap: 0;
+    }
+
+    .lista li {
+        padding: 5px 0;
+        border: 1px solid #1A1A16;
+    }
+    .lista li a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px; 
+        color: #fff; 
+        text-decoration: none; 
+        transition: color 0.2s; 
+    }
+    .lista li a:focus {
+        border-bottom: 1px solid #ffffff;
+    }
+    .lista li a:hover {
+        border-bottom: 1px solid #ffffff;
+    }
+    .banner-content {
+        padding: 1em;
+    }
+
+    .banner-content h1 {
+        font-size: 1.5em;
+    }
+    
+    .banner-content p {
+        font-size: 1em;
+    }
+    
+    #servicio, #modems, #pricing {
+        padding: 1em;
+    }
+    
+    .pricing-plan {
+        flex: 1 1 100%;
+    }
+    
+    .modem-item {
+        flex: 1 1 100%;
+    }
+}

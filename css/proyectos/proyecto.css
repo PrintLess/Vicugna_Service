@@ -1,0 +1,235 @@
+body {
+    font-family: 'Fugaz One', sans-serif;
+}
+
+.barra {
+    width: 100%;
+    background-image: url("../../img/proyectos/fondo1.jpg");
+    object-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    object-fit: cover;
+    color: #ffffff;
+    text-align: center;
+    font-size:16px ;
+    font-family: Fugaz one;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.lista {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    justify-content: space-evenly;
+}
+
+.lista li {
+    margin: 0 20px;
+}
+.logo-nav {
+    width: 55px;
+    height: 50px;
+}
+
+.presentacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+}
+
+.container-presentacion h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.container-presentacion h5 {
+    font-size: 1.2em;
+    max-width: 800px;
+    text-align: center;
+}
+.seccion, .seccion2{
+    font-family: Fugaz one;
+}
+
+.seccion {
+    padding: 50px 20px;
+    text-align: center;
+   
+}
+.seccion2{
+    padding: 50px 20px;
+    text-align: center;
+
+}
+
+.proyecto-lista1 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.projecto-opcion {
+    width: 30%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.projecto-opcion img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #8B4513;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-content p {
+    margin: 10px 0;
+    font-size: 0.9em;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+.social-icons img {
+    width: 100%;
+    height: 100%;
+}
+@media (max-width: 768px) {
+    .container-presentacion{
+        display: none;
+    }
+    .barra{
+        height: auto;
+        padding: 0;
+        background-image: none;
+        background-color: #282825;
+    }
+    .navbar {
+        flex-direction: column;
+        padding: 0px;
+    }
+    .lista {
+        flex-direction: column;
+        align-items: center;
+        background-color: #282825;
+        padding: 0;
+        width: 100vw;
+        height: auto;
+        display:block;
+        gap: 0;
+    }
+    .lista li {
+        padding: 0;
+        border: 1px solid #1A1A16;
+        margin: 0;
+    }
+    .lista li a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 60px;
+    }
+    .logo-nav {
+        margin-bottom: 10px;
+    }
+    .presentacion h5 {
+        display: none;
+    }
+    .container-presentacion h1 {
+        font-size: 2.5em;
+        background-color: black;
+    }
+    .container-presentacion h5 {
+        font-size: 1em;
+    }
+    .seccion, .seccion2{
+        display: flexbox;
+        object-position: center;
+        align-items: center;
+    }
+    .proyecto-lista1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .projecto-opcion {
+        width: 65%;
+    }
+}
+
+@media (max-width:1024px) and (min-width: 769px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    .lista {
+        flex-direction: row;
+        justify-content: space-evenly;
+        font-size: 12px;
+    }
+    .proyecto-lista1 {
+        justify-content: space-around;
+    }
+    .projecto-opcion {
+        width: 45%;
+    }
+}
+
