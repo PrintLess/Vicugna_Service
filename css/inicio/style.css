@@ -6,7 +6,7 @@ html{
     overflow-x: hidden;
 }
 .barra{
-    background-image: url('../img/inicio/banner.png');
+    background-image: url('../../img/inicio/banner.png');
     display: flex;
     width: 100vw;
     height: 600px;
@@ -89,7 +89,7 @@ html{
     gap: 5%;
     grid-template-columns: repeat(3, 28vw);
     grid-template-rows: auto;
-    background-image: url('../img/inicio/banner2.png');
+    background-image: url('../../img/inicio/banner2.png');
     color: #ffffff;
 }
 .banner-2 div{
