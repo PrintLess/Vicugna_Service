@@ -302,6 +302,10 @@ footer {
     height: 100%;
 }
 
+.accordion-button{
+    border: 1px solid #8B4513 !important;
+    height: auto;
+}
 
 /* FORMATO CELULAR */
 @media (max-width: 768px){
