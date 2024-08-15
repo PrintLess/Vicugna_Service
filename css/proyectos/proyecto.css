@@ -30,12 +30,11 @@ body {
 }
 
 .lista {
-    width: 100%;
     list-style-type: none;
     display: flex;
     align-items: center;
-    padding: 0px;
     justify-content: space-evenly;
+    gap: 10px;
 }
 
 .lista li {
