@@ -275,6 +275,28 @@ footer {
     border-radius: 50%; 
 }
 
+.cards-container{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3,30vw);
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.items{
+    width: 25vw;
+    height: auto;
+    border: 1px solid rgb(218, 218, 218);
+}
+
+.items img{
+    width: 25vw;
+    height: auto;
+
+}
+
 @media (max-width: 1024px) and (min-width: 769px) {
 
     .modem-gallery, .pricing-table {
