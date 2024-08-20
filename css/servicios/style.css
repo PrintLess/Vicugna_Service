@@ -1,17 +1,14 @@
 body {
     margin: 0;
-    font-family: 'Fugaz One', sans-serif;
+    font-family: "Roboto";
     color: #333;
     text-align: center; 
-    background-color: #f7f3e9; 
+    /* background-color: #f7f3e9;  */
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Fugaz One', sans-serif;
+    font-family: 'Fugaz One';
   }
 
-body, p, span, li, a, ul, ol, dl, dt, dd {
-    font-family: 'Roboto', sans-serif;
-  }
 header{
     background-image:url(../../img/servicios/iconos/Banner\ \(1\).png);
     background-position: center center;
@@ -37,6 +34,7 @@ header{
     padding: 2em;
     border-radius: 10px;
     max-width: 800px;
+    height: auto;
     text-align: center;
 }
 .carousel button {
@@ -76,9 +74,14 @@ header{
     gap: 70px;
     align-items: center;
     margin-top: 0;
-    margin-left: auto; /
   }
   
+.carousel{
+    margin-bottom: 150px;
+}
+
+
+
   .lista li {
     list-style-type: none;
   }
