@@ -40,6 +40,13 @@ body {
 .lista li {
     margin: 0 20px;
 }
+
+  .lista li a:focus,
+  .lista li a:hover {
+    border-bottom: 1px solid #e5c07b ;
+    color: #e5c07b;
+  }
+
 .logo-nav {
     width: 55px;
     height: 50px;
@@ -85,8 +92,6 @@ body {
     gap: 20px;
 }
 
-
-
 .projecto-opcion {
     width: 30%;
     border-radius: 10px;
@@ -99,7 +104,7 @@ body {
 }
 
 footer {
-    background-color: #8B4513;
+    background-color: #1A1A1D ;
     color: #fff;
     padding: 20px 0;
     text-align: center;

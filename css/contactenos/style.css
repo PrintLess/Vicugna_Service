@@ -46,7 +46,8 @@ html{
     border-bottom: 1px solid #ffffff ;
 }
 .lista li a:hover{
-    border-bottom: 1px solid #ffffff ;
+    border-bottom: 1px solid #e5c07b ;
+    color: #e5c07b;
 }
 .container-general{
     width: 100vw;
@@ -247,7 +248,7 @@ button{
 
 
 footer {
-    background-color: #8B4513;
+    background-color: #1A1A1D ;
     color: #fff;
     padding: 20px 0;
     text-align: center;

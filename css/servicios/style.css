@@ -1,9 +1,8 @@
 body {
     margin: 0;
     font-family: "Roboto";
-    color: #333;
     text-align: center; 
-    /* background-color: #f7f3e9;  */
+    background-color: #f0ece2; 
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Fugaz One';
@@ -23,14 +22,19 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #ffffff;
+    color: #f0ece2;
     position: relative; 
     z-index: 1; 
 }
 
+
+.carousel-caption h4{
+    color: #E4266D;
+}
+
 .banner-content {
     background: transparent;
-    color: #fff;
+    color: #f0ece2;
     padding: 2em;
     border-radius: 10px;
     max-width: 800px;
@@ -69,6 +73,55 @@ header{
     width: 100%;
   }
 
+  .container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+    background-color: #2e4057;
+    margin-bottom: 50px;
+}
+
+.left {
+    max-width: 50%;
+}
+
+.left img {
+    width: 50px;
+}
+
+.left h1 {
+    font-size: 2rem;
+    margin: 20px 0;
+    color: white;
+}
+
+.left h1 span {
+    color: #e5c07b;
+}
+
+.left .button {
+    display: inline-block;
+    background-color: #e5c07b;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.right {
+    display: flex;
+}
+
+
+.badge img {
+    width: 15vw;
+    margin-bottom: 10px;
+}
+
+
+
   .lista {
     display: flex;
     gap: 70px;
@@ -95,7 +148,8 @@ header{
   
   .lista li a:focus,
   .lista li a:hover {
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #e5c07b ;
+    color: #e5c07b;
   }
   
   .h-btn {
@@ -125,12 +179,12 @@ header{
 
 #servicio h2 {
     font-size: 2em;
-    color: #8B4513; /
+    color: #E5C07B ; /
 }
 
 #servicio p, #servicio ul {
     font-size: 1.2em;
-    color: #8B4513; 
+    color: #000; 
 }
 
 #modems {
@@ -235,7 +289,7 @@ header{
 }
 
 footer {
-    background-color: #8B4513; 
+    background-color: #1A1A1D ; 
     color: #fff;
     padding: 2em 0; 
     width: 100%;

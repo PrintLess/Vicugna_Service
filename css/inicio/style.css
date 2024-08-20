@@ -31,16 +31,16 @@ html{
     list-style-type: none;
 }
 .lista li a{
-    color: white;
+    color: #F0ECE2 ;
     text-decoration: none;
     font-family: Fugaz one;
     display: block;
     border-bottom: 1px none #ffffff ;
-    transition: border-bottom 0.5s ease;
 }
 
 .lista li a:hover{
-    border-bottom: 1px solid #ffffff ;
+    border-bottom: 1px solid #e5c07b ;
+    color: #e5c07b;
 
 }
 
@@ -48,7 +48,7 @@ html{
     display: flex;
     align-items: center;
     justify-content: center;
-    color:#ffffff;
+    color:#F0ECE2;
     font-family: fugaz one;
     width: 100%;
     height: auto;
@@ -80,6 +80,7 @@ html{
     width: 50vw;
     height: auto;
     text-align: center;
+    
 }
 .banner-2{
     display: grid;
@@ -92,10 +93,7 @@ html{
     grid-template-columns: repeat(3, 28vw);
     grid-template-rows: auto;
     background-image: url('../../img/inicio/banner2.png');
-    color: #ffffff;
-}
-.banner-2 div{
-
+    color: #F0ECE2 ;
 }
 .text1{
     margin-left: 20px;
@@ -134,18 +132,23 @@ html{
     margin-left: 20px;
     font-size: 20px;
 }
+
+.valores{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .valores-titulo{
-    background-color: black;
-    opacity: 0.90;
+    background-color: #2E4057 ;
     text-align: center;
     margin-top: 100px;
     justify-content: center;
     align-items: center;
     align-content: center;
-    width: 100%;
+    width: 95%;
     margin-bottom: 100px;
     height: 66px;
-    opacity: 0.8;
 }
 .valores-titulo h3{
     font-family: roboto;
@@ -167,10 +170,9 @@ html{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #000000;
+    background-color: #2E4057 ;
     border-radius: 30px;
     padding-top: 20px;
-    opacity: 0.8;
 }
 .container-valores div p{
     width: 80%;
@@ -182,7 +184,7 @@ html{
 }
 
 footer {
-    background-color: #8B4513;
+    background-color: #1a1a1d;
     color: #fff;
     padding: 20px 0;
     text-align: center;
