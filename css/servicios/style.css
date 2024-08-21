@@ -28,8 +28,9 @@ header{
 }
 
 
-.carousel-caption h4{
+.carousel-caption h1{
     color: #E4266D;
+    font-family: "Fugaz one";
 }
 
 .banner-content {
@@ -363,6 +364,9 @@ footer {
     .pricing-plan {
         margin: 1em 0;
     }
+    .container{
+        flex-direction: column-reverse;
+    }
 }
 
 @media (max-width: 768px){
@@ -446,5 +450,8 @@ footer {
     
     .modem-item {
         flex: 1 1 100%;
+    }
+    .container{
+        flex-direction: column-reverse;
     }
 }

@@ -8,6 +8,7 @@ html{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+
 .barra{
     background-image: url("../../img/contactenos/bg-header2.png");
     width: 100vw;
@@ -36,15 +37,13 @@ html{
     list-style-type: none;
 }
 .lista li a{
-    color: white;
+    color: #f0ece2;
     text-decoration: none;
     font-family: Fugaz one;
     display: block;
     
 }
-.lista li a:focus{
-    border-bottom: 1px solid #ffffff ;
-}
+
 .lista li a:hover{
     border-bottom: 1px solid #e5c07b ;
     color: #e5c07b;
@@ -68,7 +67,7 @@ section{
 }
 
 .datos{
-    color: white;
+    color: #f0ece2;
     text-align: start;
     gap: 30px;
 }
@@ -116,7 +115,7 @@ input{
 }
 
 button{
-    background-color: #57392e;
+    background-color: #ff6f61;
     width: 100%;
     height: 30px;
     color: #fff;
@@ -137,7 +136,7 @@ button{
     padding: 5vw;
 }
 .titulo-testimonios h2{
-    color: #854630;
+    color: #e5c07b;
     font-size: 25px;
     font-family: Fugaz one;
     margin-bottom: 20px;
@@ -158,7 +157,7 @@ button{
     width: 20vw;
 }
 .item1, .item2, .item3{
-    border: 1px solid #854630;
+    border: 1px solid #2e4057;
     height: 80vh;
     display: flex;
     flex-direction: column;
@@ -189,7 +188,7 @@ button{
     margin-bottom: 50px;
 }
 .container-text h2{
-    color: #854630;
+    color: #e5c07b;
     font-size: 25px;
     font-family: Fugaz one;
 }
@@ -207,7 +206,7 @@ button{
 
 .faq-contenido{
     background-color: transparent;
-    border: 1px solid #854630;
+    border: 1px solid #2e4057;
     margin-bottom: 2rem;
     border-radius: 6px;
     width: 80vw;
@@ -221,7 +220,7 @@ button{
     display: flex;
     justify-content: space-between;
     margin: 20px;
-    color: #854630;
+    color: #2e4057;
 }
 
 .faq i {
@@ -240,7 +239,7 @@ button{
 
 .faq-items{
     width: 80%;
-    border: solid 1px #57392e;
+    border: solid 1px #2e4057;
     
 }
 
